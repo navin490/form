@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Travel Payment Form</title>
+    <style>
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    background-color: lightgrey;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-left: 10%;
+}
+.container{
+    background-color: white;
+    padding:5px 20px 15px 20px;
+    border: 1px solid lightgreen;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="address"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding:12px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: white;
+    border: 1px solid white;
+}
+.main_heading{
+    text-align: center;}
+
+input[type="submit"]
+{
+    background-color: yellowgreen;
+    color: blue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100px;
+    margin:2cap
+}
+input[type="reset"]
+{
+    background-color: greenyellow;
+    color: blue;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 2cap;
+    align-items: right;
+}
+
+    input[type="button"]{
+        background-color: brown;
+        color: blue;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        margin: 2cap;
+    }
+    
+    </style>
+</head>
+<body><center>
+    <form><b>
+        <h1 style="color:blue">Payment Form</h1>
+        <p>Required filled are followed by *</p>
+<h2 bgcolor ="color: yellow">Contact information</h2>
+<p><b>Name: * <input type="text" name="name" required="name" placeholder="Ankit gupta"></b></p>
+
+    <fieldset style="background-color: lightpink;"> 
+    Male *<input type="radio" name="gender" id="male" required >
+    Female *<input type="radio" name="gender" id="female" required>
+other*<input type="radio" name="other" id="other" required>
+</p>
+</fieldset>
+<p> ADDRESS: <textarea name="address" id="address" cols="100" rows="5" style="background-color: brown;"></textarea></p>
+<p>Telephone: <input type="number" name="number" id="number" required="telephone" placeholder="9876543210"</p>
+<p>Email:* <input type="email" name="email" id="email" required="email" placeholder="navin448@gmail.com"></p>
+<p>Pincode: *<input type="number" required="pincode" placeholder="400095"</p>
+<hr>
+<h2><i>Payment info</h2></i>
+
+
+<p>Card type:
+    <select name="card type" id="card type">
+<option value="">--SElect a card type--</option>
+<option value="Visa">VIsa</option>
+<option value="Mastercard">Mastercard</option>
+<option value="rupay">Rupay</option>
+
+</select>
+</p>   </b>
+
+<p>
+    Card number: <input type="card number" name="card number" id="card number" required="cad number" placeholder="5468 8746 1234"
+</p>
+<p>EXpiration of card date: <input type="date" name="date" id="date"required </p>
+<p>CVV: <input type="password" name="password" id="password" required="password" placeholder="000"
+</p>
+</p>
+<p><input type="reset" value="RESET"> </p>
+<p>
+<input type="submit" value="Pay Now" ></p>
+<p><input type="button" value="Feed back"></p>
+</form>
+<a href="first.html" target="Blank">click here for Your given details</a><hr>
+<a href="form.html" target="Blank"><b>Submit other form</b></a><hr>
+</center>
+</body>
+</html>
